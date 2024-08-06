@@ -39,7 +39,6 @@ english_teams = ["Manchester United", "Manchester City", "Chelsea", "Liverpool",
 for i in english_teams:
     if i in all_matches[-1]:
         all_matches.remove(all_matches[-1])
-# There is woman league of English League, and the woman league comes after the men league in order so if a match is detected at the end of the list, and it equals to an English team, it means it is a women league match
 
 for i in all_matches:
     print(i, "\n")
